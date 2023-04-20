@@ -12,10 +12,10 @@ function BSMsummary() {
     itemStyle:{color:'#228B22', borderColor:'#DC143C'},
     symbol: "roundRect",
     symbolSize:30,
-    name: "Ecommerce App",
+    name: "Front End Web Development",
       children: [
       {
-         name:"Web Stack",
+         name:"HTML",
          position: "top",
          symbol: "circle",
          itemStyle:{color:'#228B22', borderColor:'#228B22'},
@@ -80,7 +80,7 @@ function BSMsummary() {
         ]
     },
       {
-        name: "Application Stack",
+        name: "CSS",
         position: "bottom",
         symbol: "circle",
         itemStyle:{color:'#228B22', borderColor:'#228B22'},
@@ -125,83 +125,28 @@ function BSMsummary() {
         ]
       },
       {
-          name:"Database",
+          name:"Javascript",
           position: "bottom",
           distance: 10,
           symbol: "circle",
           itemStyle:{color:'#228B22', borderColor:'#DC143C'},
           lineStyle: {color: '#DC143C', opacity:1},
            backgroundColor: '#95cb03',
-            children: [
-            {
-              symbol: "pin",
-             name: "DBSRV1",
-             itemStyle:{color:'#228B22', borderColor:'#DC143C'},
-            lineStyle: {color: '#DC143C', opacity:1}, 
-             children: [
-               {symbol: "diamond",
-               itemStyle:{color:'#228B22', borderColor:'#228B22'},
-               lineStyle: {color: '#228B22', opacity:1}, 
-                name: "DB service status"},
-               {symbol: "diamond", 
-               itemStyle:{color:'#228B22', borderColor:'#228B22'},
-               lineStyle: {color: '#228B22', opacity:1},
-                name: "Connected users"},
-                {symbol: "diamond", 
-               itemStyle:{color:'#DC143C', borderColor:'#DC143C'},
-               lineStyle: {color: '#DC143C', opacity:1},
-                name: "Connection time"}
-             ]
-           },
-           {
-            symbol: "pin",
-             name: "DBSRV2",
-             itemStyle:{color:'#228B22', borderColor:'#228B22'},
-            lineStyle: {color: '#228B22', opacity:1},
-             // value: 3322
-             children: [
-                {symbol: "diamond",
-               itemStyle:{color:'#228B22', borderColor:'#228B22'},
-               lineStyle: {color: '#228B22', opacity:1}, 
-                name: "DB service status"},
-               {symbol: "diamond", 
-               itemStyle:{color:'#228B22', borderColor:'#228B22'},
-               lineStyle: {color: '#228B22', opacity:1},
-                name: "Connected users"},
-                {symbol: "diamond", 
-               itemStyle:{color:'#228B22', borderColor:'#228B22'},
-               lineStyle: {color: '#228B22', opacity:1},
-                name: "Connection time"}
-             ]
-           },
-           {
-            symbol: "pin",
-            name: "DBSRV3",
-            itemStyle:{color:'#228B22', borderColor:'#DC143C'},
-            lineStyle: {color: '#DC143C', opacity:1},
-            // value: 3322
-            children: [
-                {symbol: "diamond",
-                itemStyle:{color:'#228B22', borderColor:'#228B22'},
-                lineStyle: {color: '#228B22', opacity:1}, 
-                 name: "DB service status"},
-                {symbol: "diamond", 
-                itemStyle:{color:'#DC143C', borderColor:'#DC143C'},
-                lineStyle: {color: '#DC143C', opacity:1},
-                 name: "Connected users"},
-                 {symbol: "diamond", 
-                itemStyle:{color:'#228B22', borderColor:'#228B22'},
-                lineStyle: {color: '#228B22', opacity:1},
-                 name: "Connection time"}
-            ]
-          }
-         ]
-        }
+       },
+       {
+        name:"Reactjs",
+        position: "bottom",
+        distance: 10,
+        symbol: "circle",
+        itemStyle:{color:'#228B22', borderColor:'#DC143C'},
+        lineStyle: {color: '#DC143C', opacity:1},
+         backgroundColor: '#95cb03',
+     }
     ]
   }
   return (
     <div>
-        <h3><Link to='/BSMgrid'>----</Link> Ecommerce App</h3>
+        <h3><Link to='/BSMgrid'></Link> SKILLS</h3>
      
       <ReactECharts
           style={{ height: "70vh" }}

@@ -52,11 +52,15 @@
 // }
 // export default TaskScheduler
 import React from 'react'
-
+import './Pages.css'
 function Project() {
   return (
-    <div>
-      okk
+    <div className='leftProject'>
+      <h5> Sportify clone</h5>
+      <h5> Todo list</h5>
+      <h5> Pokemon Pokedex</h5>
+      <h5> React food Card Webpage</h5>
+      <h5> CRUD operation using MERN Stack</h5>
     </div>
   )
 }
