@@ -12,7 +12,7 @@ function AboutMe() {
 <div class="card" >
      <div class="card-body">
      <h5 class="card-title">Abhishek Kumar</h5>
-     <p class="card-text">Hi, I'm Abhishek Kumar and I'm a graduate student ... I'm experienced in Front End Web Development</p>
+     <p class="card-text">Hi, I'm Abhishek Kumar ... I'm experienced in Front End Web Development</p>
     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
   </div>
 </div>

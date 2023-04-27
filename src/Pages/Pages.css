@@ -5,3 +5,16 @@
 .leftProject{
     align-items:end;
 }
+.project_row_four{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    height: 20%;
+    gap: 0.3rem;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

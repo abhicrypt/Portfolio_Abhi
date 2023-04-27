@@ -3,8 +3,8 @@ import logoA from '../Assets/logo/logoB.png'
 import { Link, BrowserRouter as Router } from 'react-router-dom'
 function Navbar() {
   return (
-    <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div >
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" >
   <div class="container-fluid">
     <Link class="navbar-brand" to="/">
     <img
@@ -13,7 +13,7 @@ function Navbar() {
             height={45}
           />
     </Link>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -38,12 +38,7 @@ function Navbar() {
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button class="btn btn-outline-success me-2" type="submit">Search</button>
       </form>
-      {/* <Link class="nav-link" to="/Login"><button class="btn btn-outline-primary me-1" type="submit">Login</button></Link> */}
-      
-      {/* <Link  to="/Signup"><button class="btn btn-outline-primary" type="submit">Signup</button></Link> */}
-      
-      
-    </div>
+     </div>
   </div>
 </nav>
     </div>
@@ -51,3 +46,4 @@ function Navbar() {
 }
 
 export default Navbar
+

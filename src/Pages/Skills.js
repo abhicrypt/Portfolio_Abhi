@@ -1,11 +1,5 @@
-// import React, {  useState } from "react"
 import ReactECharts from "echarts-for-react"
-// import { XAxis } from "recharts"
-// import { Card, CardHeader } from "reactstrap"
-import {Link} from 'react-router-dom'
-// import './BSM_Summary.scss'
-// import { ArrowLeftCircle, Facebook, Twitter, Instagram, Globe, Bell, Settings, Hash } from 'react-feather'
-
+import OthersSkill from "./OthersSkills"
 function BSMsummary() {
 //   const [name, setName] = useState("")
   const data = {
@@ -85,7 +79,7 @@ function BSMsummary() {
         symbol: "circle",
         itemStyle:{color:'#228B22', borderColor:'#228B22'},
         lineStyle: {color: '#228B22', opacity:1},
-        position: "bottom",
+        
         children: [
           { 
             symbol: "pin",
@@ -146,7 +140,7 @@ function BSMsummary() {
   }
   return (
     <div>
-        <h3><Link to='/BSMgrid'></Link> SKILLS</h3>
+      
      
       <ReactECharts
           style={{ height: "70vh" }}
@@ -189,6 +183,7 @@ function BSMsummary() {
                         ]
                       }}
       />
+      <OthersSkill/>
 </div>
   )
 }
